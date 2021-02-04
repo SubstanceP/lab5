@@ -12,6 +12,10 @@ function initializePage() {
 	console.log("Javascript connected!");
 }
 
+
+
+
+
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
 	
@@ -44,3 +48,10 @@ function anagrammedName(name) {
 		return name;
 	}
 }
+
+$("a.name-sel").click(function() {
+	console.log("test");
+});
+
+
+
